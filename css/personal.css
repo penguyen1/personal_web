@@ -1,0 +1,107 @@
+header{
+    background: url("../images/ny.jpg");
+    text-align: center;     height: 317px;
+    background-size: cover;
+    background-position: center;
+    margin: -60px -8px 10px -9px;
+    padding: 70px 0 0 0;
+    font-family: 'Cinzel', serif;
+}
+html{ min-height: 100%; }           /* document root min-height must be 100% for linear gradient of body tag to work! */
+#bodyBG{                            /* webpage background fade (blue to white) */
+    background: #BEDFF6;                                                                        /* if gradients are not supported */
+    background: -webkit-linear-gradient(bottom, rgba(0,0,255,.5), rgba(255,255,255,1));         /* Chrome | Safari | Opera */
+    background: -moz-linear-gradient(bottom, rgba(0,0,255,.5), rgba(255,255,255,1));            /* Mozilla FireFox */
+    background: linear-gradient(bottom, rgba(0,0,255,.5), rgba(255,255,255,1));                 /* standard syntax - always last */
+}
+#menu{                              /* Entire Horizontal Menu Bar */
+    padding: 10px;                  
+    background: rgba(0,0,0,0.7);    
+}
+.menuItem{                          /* each tab on menu bar */
+    display: inline-block;          
+    padding: 0px 20px 0px 0px;
+}
+.item{                              /* each link on menu bar */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{ color: #FF0000; }
+h1{ font-size: 100px; color: black;}
+article{
+    max-width: 800px; 
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+#home{                              /* Intro paragraph to webpage */
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'Londrina Shadow', cursive;
+    color: black;
+}
+
+#me{                                /* top-left About Me page */
+    position: absolute;
+    display: inline-block;
+    width: 300px; height: 400px;
+    margin: 60px 20px 40px 200px;
+    border-radius: 60%;
+    border: 2px solid black;
+}
+#facts{                            /* top-right About Me page */  
+    position: relative;
+    display: inline-block;
+    margin: 100px 0 50px 650px;
+    width: 710px;
+    font-size: 20px;
+    padding: 10px;  
+    line-height: 40px;
+}
+li{ list-style-type: none; }
+strong{ color: red; }
+#bio{                              /* bottom-left About Me page */
+    position: relative;
+    display: inline-block;
+    margin: 0 0 50px 150px;
+    width: 600px; height: 500px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+#ball{                              /* bottom-right About Me page */
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 0px 70px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.contact{ font-size: 22px;  margin: 15px; }
+#contact{
+    font-size: 19px;
+    color: blue;
+    font-family: 'Cinzel', serif;
+}
+input{
+    border: 1px solid gray;  
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;    font-family: serif;
+    width: 340px; height: 20px;
+}
+input[type="submit"]{
+    width: 90px; height: 50px; font-size: 22px;
+    background: rgba(0,0,0,0); color: blue;
+    border: none; border-radius: 4px;
+}
+input[type="submit"]:hover{ background: rgba(0,128,0,.9); color: white; }
+textarea{
+    width: 440px; height: 120px;
+    border-radius: 5px; border: 1px solid gray; 
+    margin: -20px 0 50px 0;
+    font-size: 18px;    font-family: serif;
+    padding: 10px;
+}

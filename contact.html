@@ -1,0 +1,33 @@
+<!DOCTYPE html>             <!-- Displays Contact Me page when contact me button is clicked -->
+<html>
+    <head>
+        <title>Questions for Peter Nguyen?</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/personal.css">                                             <!-- links to home.css file -->
+        <link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>       <!-- special fonts-->
+        <script type="text/javascript" src="js/personal.js"></script>                                           <!-- links to personal.js file -->
+        <header>
+            <h1>Contact Me</h1>
+            <ul id="menu">
+                <li class="menuItem"><a class="item" href="home.html">Home</a></li>
+                <li class="menuItem"><a class="item" href="about.html">About Me</a></li>
+                <li class="menuItem"><a class="item" id="resume" href="javascript:openResume('Resume.pdf')">Resume</a></li>
+                <li class="menuItem"><a class="item" href="https://github.com/penguyen1">GitHub</a></li>
+            </ul>
+        </header>
+    </head>
+    <body id="bodyBG">
+        <article>
+            <p class="contact">Have a question to ask? Or just want to chat?</p>
+            <p class="contact">You may contact me directly by:</p>
+            <p class="contact"><b>Email:</b> <span id="contact">PETERNGUYEN008@GMAIL.COM</span></p>
+            <p class="contact"><b>Telephone:</b> <span id="contact">(646) 515-9667</span></p>
+            <p class="contact"><br><br>Or submit your questions below and I will get back to you as soon as possible!</p>
+            <form id="usrform">
+                <input type="text" name="usrEmail" placeholder="Your Email Address" required>
+                <input type="submit" value="Submit">
+            </form>
+                <br><textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Ask and I shall answer!"></textarea>
+        </article>
+    </body>
+</html>
